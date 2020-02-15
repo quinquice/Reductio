@@ -1,0 +1,240 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextRank"
+provides-nominal:
+- "8Reductio8TextRankC"
+provides-member:
+- ["8Reductio8TextRankC", ""]
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Dictionary"
+- "Float"
+- "FloatLiteralType"
+- "Hashable"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "TextRank"
+- !private "pow"
+- !private "sqrtf"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "reduce"]
+- !private ["SK", "append"]
+- !private ["SK", "reduce"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "Float"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["Se", "Float"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- ["SD", "Float"]
+- !private ["SD", "Int"]
+- !private ["SD", "count"]
+- ["SD", "init"]
+- !private ["SD", "reduce"]
+- !private ["SD", "subscript"]
+- !private ["SE", "Float"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Float"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Float"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "reduce"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", "append"]
+- !private ["Sm", "reduce"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Float"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["8Reductio8TextRankC", "Bool"]
+- ["8Reductio8TextRankC", "Edge"]
+- ["8Reductio8TextRankC", "Float"]
+- ["8Reductio8TextRankC", "Graph"]
+- ["8Reductio8TextRankC", "Matrix"]
+- ["8Reductio8TextRankC", "Node"]
+- ["8Reductio8TextRankC", "add"]
+- ["8Reductio8TextRankC", "convergence"]
+- ["8Reductio8TextRankC", "damping"]
+- ["8Reductio8TextRankC", "deinit"]
+- ["8Reductio8TextRankC", "execute"]
+- !private ["8Reductio8TextRankC", "graph"]
+- !private ["8Reductio8TextRankC", "increment"]
+- ["8Reductio8TextRankC", "init"]
+- !private ["8Reductio8TextRankC", "iteration"]
+- !private ["8Reductio8TextRankC", "nodes"]
+- !private ["8Reductio8TextRankC", "outlinks"]
+- !private ["8Reductio8TextRankC", "pow"]
+- ["8Reductio8TextRankC", "score"]
+- !private ["8Reductio8TextRankC", "sqrtf"]
+- !private ["8Reductio8TextRankC", "weights"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["10Foundation13_CFBridgeableP", "Float"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "reduce"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Float"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "Float"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "reduce"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "8Reductio8TextRankC"
+- !private "s14_ArrayProtocolP"
+- "10Foundation13_CFBridgeableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "435033d86d0e66f88ef30e91eaaf40a3"

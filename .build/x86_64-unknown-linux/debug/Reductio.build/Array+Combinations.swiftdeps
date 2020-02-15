@@ -1,0 +1,390 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["Sa", "count"]
+- ["Sa", "combinations"]
+- ["Sa", "slice"]
+- ["Sa", "slice"]
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "..<"
+- "Array"
+- "CastingPrecedence"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "Float"]
+- ["Sa", "Int"]
+- !private ["Sa", "addCombo"]
+- ["Sa", "combinations"]
+- ["Sa", "count"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "prefix"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "remove"]
+- ["Sa", "slice"]
+- !private ["s10ArraySliceV", "map"]
+- !private ["SK", "Float"]
+- !private ["SK", "Int"]
+- !private ["SK", "addCombo"]
+- !private ["SK", "count"]
+- !private ["SK", "flatMap"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "prefix"]
+- !private ["SK", "reduce"]
+- !private ["SK", "remove"]
+- !private ["SK", "slice"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "Float"]
+- !private ["Sl", "Int"]
+- !private ["Sl", "addCombo"]
+- !private ["Sl", "count"]
+- !private ["Sl", "flatMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "slice"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "Float"]
+- !private ["10Foundation15ContiguousBytesP", "Int"]
+- !private ["10Foundation15ContiguousBytesP", "addCombo"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "flatMap"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "prefix"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "slice"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "addCombo"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "slice"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "addCombo"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "slice"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "addCombo"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "slice"]
+- !private ["10Foundation12DataProtocolP", "Float"]
+- !private ["10Foundation12DataProtocolP", "Int"]
+- !private ["10Foundation12DataProtocolP", "addCombo"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "flatMap"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "prefix"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation12DataProtocolP", "slice"]
+- !private ["Se", "Float"]
+- !private ["Se", "Int"]
+- !private ["Se", "addCombo"]
+- !private ["Se", "count"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "prefix"]
+- !private ["Se", "reduce"]
+- !private ["Se", "remove"]
+- !private ["Se", "slice"]
+- !private ["SE", "Float"]
+- !private ["SE", "Int"]
+- !private ["SE", "addCombo"]
+- !private ["SE", "count"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "prefix"]
+- !private ["SE", "reduce"]
+- !private ["SE", "remove"]
+- !private ["SE", "slice"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "addCombo"]
+- !private ["SQ", "count"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "prefix"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "slice"]
+- !private ["s25ExpressibleByArrayLiteralP", "Float"]
+- !private ["s25ExpressibleByArrayLiteralP", "Int"]
+- !private ["s25ExpressibleByArrayLiteralP", "addCombo"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "prefix"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "slice"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Float"]
+- !private ["SH", "Int"]
+- !private ["SH", "addCombo"]
+- !private ["SH", "count"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "prefix"]
+- !private ["SH", "reduce"]
+- !private ["SH", "remove"]
+- !private ["SH", "slice"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "Float"]
+- !private ["SM", "Int"]
+- !private ["SM", "addCombo"]
+- !private ["SM", "count"]
+- !private ["SM", "flatMap"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "prefix"]
+- !private ["SM", "reduce"]
+- !private ["SM", "remove"]
+- !private ["SM", "slice"]
+- !private ["10Foundation19MutableDataProtocolP", "Float"]
+- !private ["10Foundation19MutableDataProtocolP", "Int"]
+- !private ["10Foundation19MutableDataProtocolP", "addCombo"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "flatMap"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "prefix"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "slice"]
+- !private ["Sj", "init"]
+- !private ["s14PrefixSequenceV", "map"]
+- !private ["Sk", "Float"]
+- !private ["Sk", "Int"]
+- !private ["Sk", "addCombo"]
+- !private ["Sk", "count"]
+- !private ["Sk", "flatMap"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "prefix"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "slice"]
+- !private ["Sn", "map"]
+- !private ["SX", "map"]
+- !private ["Sm", "Float"]
+- !private ["Sm", "Int"]
+- !private ["Sm", "addCombo"]
+- !private ["Sm", "count"]
+- !private ["Sm", "flatMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "slice"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Float"]
+- !private ["ST", "Int"]
+- !private ["ST", "addCombo"]
+- !private ["ST", "count"]
+- !private ["ST", "flatMap"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "prefix"]
+- !private ["ST", "reduce"]
+- !private ["ST", "remove"]
+- !private ["ST", "slice"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "Float"]
+- !private ["s14_ArrayProtocolP", "Int"]
+- !private ["s14_ArrayProtocolP", "addCombo"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "prefix"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "slice"]
+- !private ["10Foundation13_CFBridgeableP", "Float"]
+- !private ["10Foundation13_CFBridgeableP", "Int"]
+- !private ["10Foundation13_CFBridgeableP", "addCombo"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "flatMap"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "map"]
+- !private ["10Foundation13_CFBridgeableP", "prefix"]
+- !private ["10Foundation13_CFBridgeableP", "reduce"]
+- !private ["10Foundation13_CFBridgeableP", "remove"]
+- !private ["10Foundation13_CFBridgeableP", "slice"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "Float"]
+- !private ["s24_DestructorSafeContainerP", "Int"]
+- !private ["s24_DestructorSafeContainerP", "addCombo"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "prefix"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "slice"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "Float"]
+- !private ["s19_HasContiguousBytesP", "Int"]
+- !private ["s19_HasContiguousBytesP", "addCombo"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "flatMap"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "slice"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Float"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Int"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addCombo"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "slice"]
+- !private ["10Foundation13_NSBridgeableP", "Float"]
+- !private ["10Foundation13_NSBridgeableP", "Int"]
+- !private ["10Foundation13_NSBridgeableP", "addCombo"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "flatMap"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "map"]
+- !private ["10Foundation13_NSBridgeableP", "prefix"]
+- !private ["10Foundation13_NSBridgeableP", "reduce"]
+- !private ["10Foundation13_NSBridgeableP", "remove"]
+- !private ["10Foundation13_NSBridgeableP", "slice"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "addCombo"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "slice"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "s14PrefixSequenceV"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "ae8084db394dc365ebf2323b04f96d2d"

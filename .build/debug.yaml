@@ -1,0 +1,37 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule","<Reductio-debug.module>"]
+  "test": ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule","<Reductio-debug.module>"]
+  "Reductio-debug.module": ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule","<Reductio-debug.module>"]
+default: "main"
+commands: 
+  "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swiftmodule.o":
+    tool: shell
+    description: "Wrapping AST for Reductio for debugging"
+    inputs: ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule"]
+    outputs: ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swiftmodule.o"]
+    args: ["/usr/bin/swiftc","-modulewrap","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule","-o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swiftmodule.o"]
+
+  "<C.Reductio-debug.module>":
+    tool: phony
+    inputs: ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule"]
+    outputs: ["<Reductio-debug.module>"]
+
+  "C.Reductio-debug.module":
+    tool: swift-compiler
+    executable: "/usr/bin/swiftc"
+    module-name: "Reductio"
+    module-output-path: "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule"
+    inputs: ["/home/cgunn/src/Reductio/Source/Array+Combinations.swift","/home/cgunn/src/Reductio/Source/Keyword.swift","/home/cgunn/src/Reductio/Source/Reductio.swift","/home/cgunn/src/Reductio/Source/Search.swift","/home/cgunn/src/Reductio/Source/Sentence.swift","/home/cgunn/src/Reductio/Source/Stemmer.swift","/home/cgunn/src/Reductio/Source/Stopwords.swift","/home/cgunn/src/Reductio/Source/Summarizer.swift","/home/cgunn/src/Reductio/Source/TextRank.swift"]
+    outputs: ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Array+Combinations.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Keyword.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Search.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Sentence.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stemmer.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stopwords.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Summarizer.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/TextRank.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.swiftmodule"]
+    import-paths: ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug"]
+    temps-path: "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build"
+    objects: ["/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Array+Combinations.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Keyword.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Search.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Sentence.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stemmer.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stopwords.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Summarizer.swift.o","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/TextRank.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux","-swift-version","5","-enable-batch-mode","-index-store-path","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/index/store","-sdk","/","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/cgunn/src/Reductio/Source/Array+Combinations.swift","/home/cgunn/src/Reductio/Source/Keyword.swift","/home/cgunn/src/Reductio/Source/Reductio.swift","/home/cgunn/src/Reductio/Source/Search.swift","/home/cgunn/src/Reductio/Source/Sentence.swift","/home/cgunn/src/Reductio/Source/Stemmer.swift","/home/cgunn/src/Reductio/Source/Stopwords.swift","/home/cgunn/src/Reductio/Source/Summarizer.swift","/home/cgunn/src/Reductio/Source/TextRank.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

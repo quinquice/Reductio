@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/master.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Array+Combinations.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Array+Combinations.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Array+Combinations.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Array+Combinations~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Array+Combinations.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Keyword.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Keyword.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Keyword.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Keyword~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Keyword.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Reductio.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Reductio.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Search.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Search.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Search.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Search~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Search.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Sentence.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Sentence.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Sentence.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Sentence~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Sentence.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Stemmer.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stemmer.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stemmer.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stemmer~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stemmer.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Stopwords.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stopwords.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stopwords.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stopwords~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Stopwords.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/Summarizer.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Summarizer.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Summarizer.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Summarizer~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/Summarizer.swiftdeps"
+  },
+  "/home/cgunn/src/Reductio/Source/TextRank.swift": {
+    "dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/TextRank.d",
+    "object": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/TextRank.swift.o",
+    "swiftmodule": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/TextRank~partial.swiftmodule",
+    "swift-dependencies": "/home/cgunn/src/Reductio/.build/x86_64-unknown-linux/debug/Reductio.build/TextRank.swiftdeps"
+  }
+}
